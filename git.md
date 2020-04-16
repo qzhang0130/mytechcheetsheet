@@ -5,3 +5,4 @@ git
 git remote -v     # validate remote repository
 
 git status     # displays the state of the working directory and the staging area
+git reset --hard HEAD # reset all changes in stage or work directory
