@@ -1,3 +1,4 @@
+# Common commands
 docker images # show all images
 docker images --help  # show help information about command images
 docker rmi <image id> # remove docker image
