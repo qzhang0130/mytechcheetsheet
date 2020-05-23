@@ -1,0 +1,4 @@
+- import matplotlib.pyplot as plt
+- plt.xlabel('Time')
+- plt.ylabel('Returns')
+- plt.legend(['X', 'X2']);
