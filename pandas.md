@@ -6,3 +6,5 @@ df.rename(columns={'Data':'ds', 'Price':'y'}) # rename column
 df.index # get the index column
 df.describe(include='all')
 new_index = pd.date_range("2016-01-01", periods=len(s), freq="D")
+train['date'] = pd.to_datetime(train['date'])
+df['year'] = getattr(df['date'].dt, 'year').astype(int)
